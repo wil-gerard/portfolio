@@ -500,10 +500,10 @@ input, select, textarea {
 /* Type */
 
 	body, input, textarea, select {
-		font-family: "Source Sans Pro", "sans-serif";
+		font-family: "proxima-nova", "sans-serif";
 		font-weight: 300;
 		font-size: 18pt;
-		line-height: 1.75em;
+		line-height: 1.2em;
 		color: #39454b;
 		letter-spacing: 0.025em;
 	}
@@ -616,6 +616,10 @@ input, select, textarea {
 
 	p, ul, ol, dl, table {
 		margin-bottom: 1em;
+	}
+
+	#intro p {
+		line-height: 1.75em;
 	}
 
 /* Box */
