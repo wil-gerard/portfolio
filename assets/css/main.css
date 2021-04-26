@@ -1775,7 +1775,7 @@ input, select, textarea {
 				transition-delay: 1.15s;
 			}
 
-		.gallery.inactive article {
+		/* .gallery.inactive article {
 			opacity: 0;
 		}
 
@@ -1805,7 +1805,7 @@ input, select, textarea {
 				-webkit-transform: translateY(7em);
 				-ms-transform: translateY(7em);
 				transform: translateY(7em);
-			}
+			} */
 
 		@media screen and (max-width: 480px) {
 
@@ -2021,7 +2021,7 @@ input, select, textarea {
 				justify-content: flex-end;
 			}
 
-			.main.style2.inactive.left > .content {
+			/* .main.style2.inactive.left > .content {
 				-moz-transform: translateX(-100%);
 				-webkit-transform: translateX(-100%);
 				-ms-transform: translateX(-100%);
@@ -2033,7 +2033,7 @@ input, select, textarea {
 				-webkit-transform: translateX(100%);
 				-ms-transform: translateX(100%);
 				transform: translateX(100%);
-			}
+			} */
 
 		.main.style3 {
 			text-align: center;
