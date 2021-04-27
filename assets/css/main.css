@@ -1847,6 +1847,8 @@ input, select, textarea {
 			height: 3em;
 			line-height: 3em;
 			cursor: default;
+			font-variant: small-caps;
+			letter-spacing: normal;
 		}
 
 			#header h1 a {
@@ -1859,6 +1861,7 @@ input, select, textarea {
 			top: 0;
 			height: 3em;
 			line-height: 3em;
+			font-weight: 500;
 		}
 
 			#header nav ul {
