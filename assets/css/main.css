@@ -1420,6 +1420,39 @@ input, select, textarea {
 
 /* Gallery */
 
+	.galleryStatic {
+		display: -moz-flex;
+		display: -webkit-flex;
+		display: -ms-flex;
+		display: flex;
+		-moz-flex-wrap: wrap;
+		-webkit-flex-wrap: wrap;
+		-ms-flex-wrap: wrap;
+		flex-wrap: wrap;
+		width: 45em;
+		max-width: 100%;
+		margin: 0 auto 2em auto;
+	}
+
+		.galleryStatic article {
+			-moz-transition: -moz-transform 1s ease, opacity 1s ease;
+			-webkit-transition: -webkit-transform 1s ease, opacity 1s ease;
+			-ms-transition: -ms-transform 1s ease, opacity 1s ease;
+			transition: transform 1s ease, opacity 1s ease;
+			-moz-transform: translateX(0);
+			-webkit-transform: translateX(0);
+			-ms-transform: translateX(0);
+			transform: translateX(0);
+			width: 50%;
+			position: relative;
+			opacity: 1.0;
+		}
+
+			.galleryStatic article .image {
+				margin: 0;
+				display: block;
+			}
+
 	.gallery {
 		display: -moz-flex;
 		display: -webkit-flex;
@@ -1821,6 +1854,25 @@ input, select, textarea {
 			}
 
 				.gallery article {
+					width: 100%;
+				}
+
+		}
+
+		@media screen and (max-width: 480px) {
+
+			.galleryStatic {
+				-moz-flex-wrap: nowrap;
+				-webkit-flex-wrap: nowrap;
+				-ms-flex-wrap: nowrap;
+				flex-wrap: nowrap;
+				-moz-flex-direction: column;
+				-webkit-flex-direction: column;
+				-ms-flex-direction: column;
+				flex-direction: column;
+			}
+
+				.galleryStatic article {
 					width: 100%;
 				}
 
@@ -2272,6 +2324,13 @@ input, select, textarea {
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
+	}
+
+	@media screen and (max-width: 736px) {
+		#two {
+			background: url("images/overlay.png");
+			background-color: rgb(65, 140, 226);
+		}
 	}
 
 /* Contact */
