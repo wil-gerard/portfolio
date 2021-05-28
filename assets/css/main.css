@@ -1448,6 +1448,10 @@ input, select, textarea {
 			opacity: 1.0;
 		}
 
+			.galleryStatic article{
+				margin-top: 30px;
+			}
+
 			.galleryStatic article .image {
 				margin: 0;
 				display: block;
