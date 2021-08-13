@@ -986,6 +986,10 @@ input, select, textarea {
 			width: 100%;
 		}
 
+		.cover {
+			object-fit: cover;
+		}
+
 		.image.left {
 			float: left;
 			margin: 0 2em 2em 0;
