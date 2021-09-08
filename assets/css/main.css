@@ -2103,6 +2103,10 @@ input, select, textarea {
 			padding: 6em 0 6em 0;
 		}
 
+			.main.style3 .content .project-description{
+				padding: 0 1em 0 1em;
+			}
+			
 			.main.style3 .content > header {
 				margin-bottom: 2em;
 			}
