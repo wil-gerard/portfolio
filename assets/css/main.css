@@ -2106,6 +2106,10 @@ input, select, textarea {
 			.main.style3 .content .project-description{
 				padding: 0 1em 0 1em;
 			}
+
+			/* .main.style3 .galleryStatic article{
+				padding: 0 0.4em;
+			} */
 			
 			.main.style3 .content > header {
 				margin-bottom: 2em;
